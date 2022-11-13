@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/reset.css">
+        <link rel="stylesheet" href="../CSS/fonts.css">
+        <link rel="stylesheet" href="../CSS/generics.css">
+        <link rel="stylesheet" href="../CSS/index.css">
+        <title>Figma Land</title>
+    </head>
+    <body>
+        <div class="grad-bg" class="position-relative">
+            <header class="disp-flex align-items-center">
+                <div class="flex-1 logo-container">
+                    <img src="../img/Logo.png" class="header-logo width-100"> 
+                </div>
+                <div class="flex-1 disp-mobile-none">
+                    <nav>
+                        <ul class="disp-flex align-items-center roboto-400-15px"><!-- Pay attention to how aligning items and setting flex to 1 stop other flex items from moving when hover  -->
+                            <li class="flex-1"><a href="#">Home</a></li>
+                            <li class="flex-1"><a href="#">Product</a></li>
+                            <li class="flex-1"><a href="#">Pricing</a></li>
+                            <li class="flex-1"><a href="#">About</a></li>
+                            <li class="flex-1"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex-1 disp-flex justify-content-flex-end align-items-center header-input-container disp-mobile-none">
+                    <div class="email-container">
+                        <input type="text" placeholder="Your Email" class="input-14px header-input">
+                    </div>
+                    <div>
+                        <button class="header-sub">Subscribe</button>
+                    </div>
+                </div>
+                <div class="disp-desktop-none" style="width:26.67px;height:16;margin-right:37.67px;">
+                    <img src="../img/hamburger-menu.png" class="width-100">
+                </div>
+            </header>
+            <section class="disp-flex disp-mobile-none" id="above-the-fold-desktop">
+                <div class="slogan-pic-container disp-mobile-none">
+                    <img src="../img/slogan-1x.png" class="width-100"/>
+                </div>
+                <div id="slogan-text-btn-container-desktop">
+                    <div id="slogan-h1-container" class="disp-mobile-none"><h1>We focus on<br>ergonomics</h1></div>
+                    <div class="slogan-h4-container disp-mobile-none"><h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4></div>
+                    <div id="slogan-btn-container"><button>Try For Free</button></div>
+                </div>
+            </section>
+            <!-- <div class="wave-container">
+                <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet" style="height:900px">
+                <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:red;"></path>
+                </svg>
+            </div> -->
+            <section class="disp-flex disp-desktop-none" id="above-the-fold-mobile">
+                <div id="slogan-h2-container" class="disp-desktop-none" style="margin-bottom: 27px;"><h2>Lightning fast<br>prototyping </h2></div>
+                <div class="slogan-h4-container disp-desktop-none" style="margin-bottom: 92.27px;"><h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4></div>
+                <div class="slogan-pic-container-mobile disp-desktop-none" style="margin-bottom: 65.77px;">
+                    <img src="../img/slogan-1x.png" class="width-100" style="display:block;height:100%;"/>
+                </div>
+                <div id="slogan-btn-container-mobile"><button>Try For Free</button></div>
+            </section> 
+        </div>
+        <section id="features" class="disp-flex">
+            <div id="features-title" class="disp-flex">
+                <div class="h3-container"><h3>At your fingertips</h3></div>
+                <div class="h2-container"><h2>Features</h2></div>
+                <div class="h4-container"><h4>Most calendars are designed for team<br>Slate is designed for freelancers</h4></div>
+            </div>
+            <div id="feature-cards" class="disp-flex">
+                <div class="card-container disp-flex card-container-margin">
+                    <div class="feature-pic-h3-container disp-flex">
+                        <div class="feature-pic-container" style="width:43px;height:43px;"><img src="../img/feature1.png" style="width:16px;height:16px;"></div>
+                        <div class="h3-container"><h3>The best products<br>start with Sketch</h3></div>
+                    </div>
+                    <div class="paragraph-left-align">
+                        <p>Slate helps you see how many<br>more days you need to work to<br>reach your financial goal.</p>
+                    </div>
+                </div>
+                <div class="card-container disp-flex card-container-margin">
+                    <div class="feature-pic-h3-container disp-flex">
+                        <div class="feature-pic-container" style="width:43px;height:43px;"><img src="../img/feature2.png" style="width:16px;height:16px;"></div>
+                        <div class="h3-container"><h3>Fastest way to<br>organize</h3></div>
+                    </div>
+                    <div class="paragraph-left-align">
+                        <p>Slate helps you see how many<br>more days you need to work to<br>reach your financial goal.</p>
+                    </div>
+                </div>
+                <div class="card-container disp-flex">
+                    <div class="feature-pic-h3-container disp-flex">
+                        <div class="feature-pic-container" style="width:43px;height:43px;"><img src="../img/feature3.png" style="width:16px;height:16px;"></div>
+                        <div class="h3-container"><h3>Work better<span class="disp-desktop-none">&nbsp;</span><br class="disp-mobile-none">together</h3></div>
+                    </div>
+                    <div class="paragraph-left-align">
+                        <p>Slate helps you see how many<br>more days you need to work to<br>reach your financial goal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="screen-mask" class="disp-flex">
+            <div class="h2-container"><h2>Lightning fast<br>prototyping</h2></div>
+            <div class="h4-container"><h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4></div>
+            <div class="try-for-free-blue-bg-container"><button>Try For Free</button></div>
+            <div id="graphic-div">
+                <div id="graphic-container" class="disp-flex">
+                    <div id="screen-img-container"><img src="../img/screen.png"></div>
+                    <div id="dummy-div-1"></div>
+                    <div id="dummy-div-2"></div>
+                </div> 
+            </div>
+        </section>
+        <section id="subscribe-sec" class="disp-flex">
+            <div class="h3-container"><h3>At your fingertips</h3></div>
+            <div class="disp-mobile-none h2-container"><h2>Lightning fast prototyping</h2></div>
+            <div class="disp-desktop-none h2-container"><h2>Newsletter</h2></div>
+            <div class="h3-container"><h3>Subscribe to our Newsletter</h3></div>
+            <div class="paragraph-center-align"><p>Available exclusivery on Figmaland</p></div>
+            <div id="sub-sec-email-input"><input type="text" placeholder="Your Email"></div>
+            <div id="sub-sec-button"><button>Subscribe</button></div>
+        </section>
+
+
+        <section id="partners">
+            <div class="h2-container"><h2>Partners</h2></div>
+            <div class="h4-container"><h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4></div>
+            <div id="partners-card-container-desktop" class="disp-flex disp-desktop-none">
+                    <div class="partners-row" id="partners-row1">
+                        <div class="partners-card" class="disp-flex">
+                            <div><h5>Client Name</h5></div>
+                            <div><img src="../img/logos_apiary.png"></div>
+                            <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                        </div>
+                        <div class="partners-card" class="disp-flex">
+                            <div><h5>Client Name</h5></div>
+                            <div><img src="../img/logos_android-icon.png"></div>
+                            <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                        </div>
+                        <div class="partners-card" class="disp-flex">
+                            <div><h5>Client Name</h5></div>
+                            <div><img src="../img/logos_basecamp.png"></div>
+                            <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                        </div>
+                    </div>
+                    <div class="partners-row" id="partners-row2">
+                        <div class="partners-card" class="disp-flex">
+                            <div><h5>Client Name</h5></div>
+                            <div><img src="../img/logos_basecamp.png"></div>
+                            <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                        </div>
+                        <div class="partners-card" class="disp-flex">
+                            <div><h5>Client Name</h5></div>
+                            <div><img src="../img/logos_airbnb.png"></div>
+                            <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                        </div>
+                        <div class="partners-card" class="disp-flex">
+                            <div><h5>Client Name</h5></div>
+                            <div><img src="../img/logos_apple-app-store.png"></div>
+                            <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                        </div>
+                    </div>
+
+            </div>
+
+            <div id="partners-card-container-mobile">
+                <div class="partners-card" class="disp-flex">
+                    <div><h5>Client Name</h5></div>
+                    <div><img src="../img/logos_apiary.png"></div>
+                    <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                </div>
+                <div class="partners-card" class="disp-flex">
+                    <div><h5>Client Name</h5></div>
+                    <div><img src="../img/logos_android-icon.png"></div>
+                    <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                </div>
+                <div class="partners-card" class="disp-flex">
+                    <div><h5>Client Name</h5></div>
+                    <div><img src="../img/logos_basecamp.png"></div>
+                    <div class="paragraph-center-align"><p>Slate helps you see how<br>many more days you need<br>to work to reach your<br>financial goal for<br>the month and year.</p></div>
+                </div>
+            </div>
+            <div class="try-for-free-blue-bg-container" style="z-index:1;"><button>Try For Free</button></div>
+        </section>
+
+
+        <section id="testimonials" class="disp-flex">
+            <div class="h2-container"><h2>Testimonials</h2></div>
+            <div><img src="../img/dropbox.png"></div>
+            <div class="h4-container"><h4>Most calendars are designed for teams.<br class="disp-desktop-none">Slate is designed for freelancers who want a <br class="disp-desktop-none">simple<br class="disp-mobile-none">way to plan their schedule.</h4></div>
+            <div id="designer-desktop" class="disp-mobile-none disp-flex">
+                <img src="../img/desktop-designer-pic.png">
+                <div class="designer-text disp-flex">
+                    <div class="h5-container" style="margin-bottom: 2px;"><h5>Organize across</h5></div>
+                    <div id="desktop-ui-designer"><p>Ui designer</p></div>
+                </div>
+            </div>
+            <div id="designer-mobile" class="disp-desktop-none disp-flex">
+                <img src="../img/mobile-designer-pic.png">
+                <div class="designer-text disp-flex">
+                    <div id="mobile-organize" style="margin-bottom: 1.7px;"><p>Organize across</p></div>
+                    <div id="mobile-ui-designer"><p>Ui designer</p></div>
+                </div>
+            </div>
+            <div id="testimonials-btn"><button>More Testimonials</button></div>
+
+        </section>
+
+        <section id="prices" class="disp-flex">
+            <div class="h2-container"><h2>Pricing</h2></div>
+            <div class="h4-container"><h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4></div>
+            <div id="price-cards-container" class="disp-flex">
+                <div id="card-free" class="price-card">
+                    <div class="h3-container"><h3>FREE</h3></div>
+                    <div class="h5-container"><h5>Organize across all apps by hand</h5></div>
+                    <div class="disp-flex dollar-sign">
+                        <div class="h1-container"><h1>0</h1></div>
+                        <div class="disp-flex">
+                            <div><h3>$</h3></div>
+                            <div><h5>Per Month</h5></div>
+                        </div>
+                    </div>
+                    <div class="order-btn"><button>Order Now</button></div>
+                </div>
+                <div id="card-standard" class="price-card">
+                    <div class="h3-container"><h3>STANDARD</h3></div>
+                    <div class="h5-container"><h5>Organize across all apps by hand</h5></div>
+                    <div class="disp-flex dollar-sign">
+                        <div class="h1-container"><h1>10</h1></div>
+                        <div class="disp-flex">
+                            <div><h3>$</h3></div>
+                            <div><h5>Per Month</h5></div>
+                        </div>
+                    </div>
+                    <div class="order-btn"><button>Order Now</button></div>
+                </div>
+                <div id="card-business" class="price-card">
+                    <div class="h3-container"><h3>STANDARD</h3></div>
+                    <div class="h5-container"><h5>Organize across all apps by hand</h5></div>
+                    <div class="disp-flex dollar-sign">
+                        <div class="h1-container"><h1>99</h1></div>
+                        <div class="disp-flex">
+                            <div><h3>$</h3></div>
+                            <div><h5>Per Month</h5></div>
+                        </div>
+                    </div>
+                    <div class="order-btn" id="business-btn"><button>Order Now</button></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <section id="contact-us">
+            <div><h2>Contact Us</h2></div>
+            <div><h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4></div>
+            <div>
+                <form>
+                    <div><label>Contact Us</label></div>
+                    <div><input type="text"></div>
+                    <div><input type="text"></div>
+                    <div><input type="text"></div>
+                    <div><button>Send</button></div>
+                </form>
+                <div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+                        <div><img src="" alt=""></div>
+                        <div><img src="" alt=""></div>
+                        <div><img src="" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+    </body>
+</html>
+

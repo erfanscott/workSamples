@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset-style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Costum Title</title>
+</head>
+<body class="text-center">
+
+    <div id="background-div" class="absolute flex" style="background-repeat: no-repeat;background-size: cover;">
+        <div class="flex-1"></div>
+        <div class="flex-1"></div>
+    </div>
+
+    <header id="mobile-header" class="flex xl:hidden flex-col">
+        <div id="mobile-contact-service-container" class="flex items-center">
+            <div class="header-contact-info flex-1 text-left font-KalamehFaNum"><p>شماره تماس : ۰۶۱۳۵۷۲۰۸۰۹</p></div>
+            <div class="header-service flex-1 text-right font-KalamehFaNum"><p>اجاره خودرو های متنوع آتش نشانی</p></div>
+        </div>
+        <div class="header-brand-name font-IRANSansX"><p>EJRAKARA<span style="letter-spacing: 0px;">N</span></p></div>
+    </header>
+
+    <header id="desktop-header" class="hidden xl:flex justify-between items-center">
+        <div class="header-contact-info flex-1 text-left font-KalamehFaNum"><p>شماره تماس : ۰۶۱۳۵۷۲۰۸۰۹</p></div>
+        <div class="header-brand-name font-IRANSansX"><p>EJRAKARA<span style="letter-spacing: 0px;">N</span></p></div>
+        <div class="header-service flex-1 text-right font-KalamehFaNum"><p>اجاره خودرو های متنوع آتش نشانی</p></div>
+    </header>
+
+    <main>
+
+        <section id="moile-menu-logo-section" class="inline-flex xl:hidden flex-col justify-center relative items-stretch">
+            <div class="flex justify-center"><img src="./img/Subtract-mobile.png"></div>
+            <div class="absolute w-full flex justify-between items-center" style="padding:0px 24px;">
+                <div class="flex-1"></div>
+                <div class="flex-1 flex justify-center" style="padding-top:8px;"><img src="./img/logo-mobile.png"></div>
+                <div class="flex-1 flex justify-end"><img src="./img/menu-moile.png"></div>
+            </div>
+        </section>
+
+        <section id="desktop-menu-logo-sign-in-sign-up-section" class="hidden xl:inline-flex flex-col justify-center relative items-stretch">
+            <div class="flex justify-center"><img src="./img/Subtract.png"></div>
+            <div class="absolute w-full flex justify-between items-center" style="padding:0px 24px;">
+                <div id="sign-in-sign-up-button" class="flex-1 flex justify-start font-IRANSansX"><button>ثبت نام / ورود</button></div>
+                <div class="flex-1 flex justify-center" style="padding-top:10px;"><img src="./img/logo.png"></div>
+                <div class="flex-1 flex justify-end"><img src="./img/menu.png" style="width:32px;height:32px"></div>
+            </div>
+        </section>
+
+        <section id="intro-section" class="flex flex-col items-center">
+            <div id="intro-brand-name" class="font-KalamehFaNum"><h1>شرکت اجرا کاران جنوب</h1></div>
+            <div id="intro-service" class="font-IRANSansX"><p>ارائه دهنده خدمات ایمنی و آتش نشانی</p></div>
+            <div id="intro-catalogue" class="relative flex flex-col items-center">
+                <div id="catalogue-gradient-div"></div>
+                <a href="#" id="catalogue-download" class="absolute font-IRANSansX"><button>دانلود کاتالوگ</button></a>
+          </div>
+        </section>
+
+        <section id="contact-section" class="flex flex-col items-center fixed">
+            <a id="whatsapp" href="#"><img src="./img/whatsapp.png" style="width:20px;height:20px;"></a>
+            <a id="call" href="#"><img src="./img/call.png"></a>
+            <a id="rent" class="font-IRANSansX" href="#"><p>اجاره</p></a>
+        </section>
+
+        <div id="scroll-div" class="hidden xl:flex flex-col items-center fixed">
+            <div id="arrow-up"><img src="./img/arrow-up.png"></div>
+            <div id="scroll-bar" class="flex flex-col">
+                <div id="scroll-bar-one-ninth"></div>
+                <div id="scroll-bar-eight-ninth"></div>
+            </div>
+            <div id="arrow-down"><img src="./img/arrow-down.png"></div>
+            <div id="folios" class="flex items-center">
+                <div id="current-page" class="font-IRANSansXFaNum"><h4>۰۱</h4></div>
+                <div id="total-pages" class="font-IRANSansX"><p>/۰۹</p></div>
+            </div>
+        </div>
+
+    </main>
+
+
+</body>
+</html>
+
+
